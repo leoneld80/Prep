@@ -1,0 +1,25 @@
+h1 {
+    color: yellowgreen;
+}
+
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: cadetblue;
+    padding: 50px;
+    border-style: outset;
+    border-color: coral;
+    text-align: center;
+}
+
+#spanId {
+    font-size: 25px;
+    margin: 50px;
+    
+}
+
