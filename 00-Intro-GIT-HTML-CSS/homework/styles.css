@@ -7,19 +7,49 @@ img {
     width: 400px;
 }
 
+.divClass {
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background-color: cadetblue;
+    background-color: whitesmoke;
     padding: 50px;
     border-style: outset;
     border-color: coral;
-    text-align: center;
+    /* text-align: center; */
+    margin: auto;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 #spanId {
     font-size: 25px;
     margin: 50px;
+    color: white;
     
+        
 }
 
+h3, h4, a{
+    color: white;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.424),rgba(0,0,0,0.424)),url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:  0.75;
+    /* text-align: center; */
+    
+
+}
