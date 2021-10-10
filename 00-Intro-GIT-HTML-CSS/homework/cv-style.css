@@ -1,0 +1,58 @@
+body {
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: whitesmoke;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+
+.titulo {
+  display: flex;
+  /* font-style: italic; */
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+
+}
+#nombre {
+  font-size: 60px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  padding-left: 20px;
+  
+}
+h2 {
+  
+}
+
+#cuerpo {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+/* .rowTitulo {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: column; */
+  
+/* } */
+
+.skills {
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+}
